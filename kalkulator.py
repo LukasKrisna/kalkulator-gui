@@ -6,17 +6,17 @@ SMALL_FONT_STYLE = ("Arial", 16)
 DIGITS_FONT_STYLE = ("Arial", 24, "bold")
 DEFAULT_FONTS_STYLE = ("Arial", 20)
 
-OFF_WHITE = "#F8FAFF"
-WHITE = "#FFFFFF"
-LIGHT_BLUE = "#CCEDFF"
-LIGHT_GRAY = "#F5F5F5"
-LABEL_COLOR = "#25265E"
+OFF_WHITE = "#1f1d1d"
+WHITE = "#1f1d1d"
+LIGHT_BLUE = "#1f1d1d"
+LIGHT_GRAY = "#1f1d1d"
+LABEL_COLOR = "#FFFFFF"
 
 
 class Calculator:
     def __init__(self):
         self.window = tk.Tk()
-        self.window.geometry("375x667")
+        self.window.geometry("375x600")
         self.window.resizable(0, 0)
         self.window.title("Kalkulator || Lukas Krisna")
 
